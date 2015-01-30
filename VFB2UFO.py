@@ -10,7 +10,7 @@ def getFiles(root, ext):
          files.append(os.path.join(root, myfile))
    return files
 
-root = '/Users/ramiromacpro/Desktop/02-VFB2UFO'   # ! define your own directory here
+root = '/Users/you/Desktop/02-VFB2UFO'   # ! define your own directory here
 settings = "-64 "    # ! define your settings for VFB2UFO
 
 new_root = "mkdir " + root +"/UFOs"
